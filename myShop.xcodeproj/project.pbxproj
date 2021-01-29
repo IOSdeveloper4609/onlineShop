@@ -9,21 +9,79 @@
 /* Begin PBXBuildFile section */
 		0D3385D225ACCD3600FBF0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3385D125ACCD3600FBF0EE /* AppDelegate.swift */; };
 		0D3385D425ACCD3600FBF0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3385D325ACCD3600FBF0EE /* SceneDelegate.swift */; };
-		0D3385D625ACCD3600FBF0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3385D525ACCD3600FBF0EE /* ViewController.swift */; };
 		0D3385D925ACCD3600FBF0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3385D725ACCD3600FBF0EE /* Main.storyboard */; };
 		0D3385DB25ACCD3700FBF0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3385DA25ACCD3700FBF0EE /* Assets.xcassets */; };
 		0D3385DE25ACCD3700FBF0EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3385DC25ACCD3700FBF0EE /* LaunchScreen.storyboard */; };
+		0D33860325ADB7C200FBF0EE /* BunnerCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33860225ADB7C200FBF0EE /* BunnerCollectionModel.swift */; };
+		0D33860825ADB89800FBF0EE /* BunnerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33860725ADB89800FBF0EE /* BunnerCollectionCell.swift */; };
+		0D33863025ADD37C00FBF0EE /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33862F25ADD37C00FBF0EE /* ImageData.swift */; };
+		0D33863F25ADDB9F00FBF0EE /* BunnerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33863E25ADDB9F00FBF0EE /* BunnerTableCell.swift */; };
+		0D33864225ADDCA800FBF0EE /* BunnerTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33864125ADDCA800FBF0EE /* BunnerTableModel.swift */; };
+		0D33864A25AE021100FBF0EE /* MainVC + extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33864925AE021100FBF0EE /* MainVC + extentions.swift */; };
+		0D33864E25AE065A00FBF0EE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33864D25AE065A00FBF0EE /* MainVC.swift */; };
+		0D33865325AE0BAD00FBF0EE /* CatalogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33865225AE0BAD00FBF0EE /* CatalogVC.swift */; };
+		0D33865625AE0E4E00FBF0EE /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33865525AE0E4E00FBF0EE /* CatalogCell.swift */; };
+		0D33865B25AE150800FBF0EE /* CatalogVC + extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33865A25AE150800FBF0EE /* CatalogVC + extentions.swift */; };
+		0D33867125AF08A900FBF0EE /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33867025AF08A900FBF0EE /* ProductModel.swift */; };
+		0D7DA51625B86BAB00AA0A49 /* ChosenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA51525B86BAB00AA0A49 /* ChosenVC.swift */; };
+		0D7DA52425B88D9800AA0A49 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA52325B88D9800AA0A49 /* DetailVC.swift */; };
+		0D7DA53025B8A81F00AA0A49 /* DetailVC + extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA52F25B8A81F00AA0A49 /* DetailVC + extentions.swift */; };
+		0D7DA53525B8C07B00AA0A49 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA53425B8C07B00AA0A49 /* Alerts.swift */; };
+		0D7DA54525B9860200AA0A49 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA54425B9860200AA0A49 /* RootVC.swift */; };
+		0D7DA55325B9947900AA0A49 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA55225B9947900AA0A49 /* CustomTabBar.swift */; };
+		0D7DA55C25B99B2800AA0A49 /* RootViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA55B25B99B2800AA0A49 /* RootViewControllerCell.swift */; };
+		0D7DA56725B9EA0900AA0A49 /* RootVC + extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA56625B9EA0900AA0A49 /* RootVC + extentions.swift */; };
+		0D7DA58725BB542F00AA0A49 /* ManSneakersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA58625BB542F00AA0A49 /* ManSneakersVC.swift */; };
+		0D7DA58B25BB54F400AA0A49 /* ManSneakersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA58A25BB54F400AA0A49 /* ManSneakersCell.swift */; };
+		0D7DA58E25BB554C00AA0A49 /* ManSneakersVC + extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7DA58D25BB554C00AA0A49 /* ManSneakersVC + extentions.swift */; };
+		0DCF5F4325AF78D1002F638B /* WomenSneakersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F4225AF78D1002F638B /* WomenSneakersVC.swift */; };
+		0DCF5F4625AF7960002F638B /* WomenBootsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F4525AF7960002F638B /* WomenBootsVC.swift */; };
+		0DCF5F4A25AF79B6002F638B /* WomenSneakersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F4925AF79B6002F638B /* WomenSneakersCell.swift */; };
+		0DCF5F4F25AF7A38002F638B /* WomenSneakersVC+ extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F4E25AF7A38002F638B /* WomenSneakersVC+ extentions.swift */; };
+		0DCF5F5825AF7B51002F638B /* WomanBootsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F5725AF7B51002F638B /* WomanBootsCell.swift */; };
+		0DCF5F5C25AF7B91002F638B /* WomenBootsVC + extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F5B25AF7B91002F638B /* WomenBootsVC + extentions.swift */; };
+		0DCF5F5F25AF82B0002F638B /* EmptyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F5E25AF82B0002F638B /* EmptyVC.swift */; };
+		0DCF5F6425AF9F74002F638B /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF5F6325AF9F74002F638B /* ProductData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D3385CE25ACCD3600FBF0EE /* myShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3385D125ACCD3600FBF0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D3385D325ACCD3600FBF0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D3385D525ACCD3600FBF0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D3385D825ACCD3600FBF0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D3385DA25ACCD3700FBF0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3385DD25ACCD3700FBF0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3385DF25ACCD3700FBF0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D33860225ADB7C200FBF0EE /* BunnerCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnerCollectionModel.swift; sourceTree = "<group>"; };
+		0D33860725ADB89800FBF0EE /* BunnerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BunnerCollectionCell.swift; path = myShop/View/BunnerCollectionCell.swift; sourceTree = SOURCE_ROOT; };
+		0D33862F25ADD37C00FBF0EE /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		0D33863E25ADDB9F00FBF0EE /* BunnerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnerTableCell.swift; sourceTree = "<group>"; };
+		0D33864125ADDCA800FBF0EE /* BunnerTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnerTableModel.swift; sourceTree = "<group>"; };
+		0D33864925AE021100FBF0EE /* MainVC + extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC + extentions.swift"; sourceTree = "<group>"; };
+		0D33864D25AE065A00FBF0EE /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainVC.swift; path = myShop/Controller/MainVC.swift; sourceTree = SOURCE_ROOT; };
+		0D33865225AE0BAD00FBF0EE /* CatalogVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogVC.swift; sourceTree = "<group>"; };
+		0D33865525AE0E4E00FBF0EE /* CatalogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCell.swift; sourceTree = "<group>"; };
+		0D33865A25AE150800FBF0EE /* CatalogVC + extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatalogVC + extentions.swift"; sourceTree = "<group>"; };
+		0D33867025AF08A900FBF0EE /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		0D7DA51525B86BAB00AA0A49 /* ChosenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenVC.swift; sourceTree = "<group>"; };
+		0D7DA52325B88D9800AA0A49 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		0D7DA52F25B8A81F00AA0A49 /* DetailVC + extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailVC + extentions.swift"; sourceTree = "<group>"; };
+		0D7DA53425B8C07B00AA0A49 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		0D7DA54425B9860200AA0A49 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		0D7DA55225B9947900AA0A49 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		0D7DA55B25B99B2800AA0A49 /* RootViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerCell.swift; sourceTree = "<group>"; };
+		0D7DA56625B9EA0900AA0A49 /* RootVC + extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootVC + extentions.swift"; sourceTree = "<group>"; };
+		0D7DA58625BB542F00AA0A49 /* ManSneakersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManSneakersVC.swift; sourceTree = "<group>"; };
+		0D7DA58A25BB54F400AA0A49 /* ManSneakersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManSneakersCell.swift; sourceTree = "<group>"; };
+		0D7DA58D25BB554C00AA0A49 /* ManSneakersVC + extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManSneakersVC + extentions.swift"; sourceTree = "<group>"; };
+		0DCF5F4225AF78D1002F638B /* WomenSneakersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenSneakersVC.swift; sourceTree = "<group>"; };
+		0DCF5F4525AF7960002F638B /* WomenBootsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenBootsVC.swift; sourceTree = "<group>"; };
+		0DCF5F4925AF79B6002F638B /* WomenSneakersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenSneakersCell.swift; sourceTree = "<group>"; };
+		0DCF5F4E25AF7A38002F638B /* WomenSneakersVC+ extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WomenSneakersVC+ extentions.swift"; sourceTree = "<group>"; };
+		0DCF5F5725AF7B51002F638B /* WomanBootsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanBootsCell.swift; sourceTree = "<group>"; };
+		0DCF5F5B25AF7B91002F638B /* WomenBootsVC + extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WomenBootsVC + extentions.swift"; sourceTree = "<group>"; };
+		0DCF5F5E25AF82B0002F638B /* EmptyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyVC.swift; sourceTree = "<group>"; };
+		0DCF5F6325AF9F74002F638B /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +114,100 @@
 		0D3385D025ACCD3600FBF0EE /* myShop */ = {
 			isa = PBXGroup;
 			children = (
+				0D7DA54F25B993EE00AA0A49 /* TabBar */,
+				0D33863225ADD47500FBF0EE /* Data */,
+				0D3385FC25ADB5F800FBF0EE /* Model */,
+				0D3385FA25ADB5E700FBF0EE /* View */,
+				0D3385F925ADB5DC00FBF0EE /* Controller */,
+				0D33860E25ADBA0500FBF0EE /* Helper */,
+				0D3385FE25ADB64D00FBF0EE /* Support Files */,
+			);
+			path = myShop;
+			sourceTree = "<group>";
+		};
+		0D3385F925ADB5DC00FBF0EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0D7DA54425B9860200AA0A49 /* RootVC.swift */,
+				0D33864D25AE065A00FBF0EE /* MainVC.swift */,
+				0D33865225AE0BAD00FBF0EE /* CatalogVC.swift */,
+				0DCF5F4225AF78D1002F638B /* WomenSneakersVC.swift */,
+				0D7DA58625BB542F00AA0A49 /* ManSneakersVC.swift */,
+				0DCF5F4525AF7960002F638B /* WomenBootsVC.swift */,
+				0D7DA52325B88D9800AA0A49 /* DetailVC.swift */,
+				0DCF5F5E25AF82B0002F638B /* EmptyVC.swift */,
+				0D7DA51525B86BAB00AA0A49 /* ChosenVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0D3385FA25ADB5E700FBF0EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D7DA55B25B99B2800AA0A49 /* RootViewControllerCell.swift */,
+				0D33860725ADB89800FBF0EE /* BunnerCollectionCell.swift */,
+				0D33863E25ADDB9F00FBF0EE /* BunnerTableCell.swift */,
+				0D33865525AE0E4E00FBF0EE /* CatalogCell.swift */,
+				0DCF5F4925AF79B6002F638B /* WomenSneakersCell.swift */,
+				0D7DA58A25BB54F400AA0A49 /* ManSneakersCell.swift */,
+				0DCF5F5725AF7B51002F638B /* WomanBootsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0D3385FC25ADB5F800FBF0EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D33860225ADB7C200FBF0EE /* BunnerCollectionModel.swift */,
+				0D33864125ADDCA800FBF0EE /* BunnerTableModel.swift */,
+				0D33867025AF08A900FBF0EE /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D3385FE25ADB64D00FBF0EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				0D3385D125ACCD3600FBF0EE /* AppDelegate.swift */,
 				0D3385D325ACCD3600FBF0EE /* SceneDelegate.swift */,
-				0D3385D525ACCD3600FBF0EE /* ViewController.swift */,
 				0D3385D725ACCD3600FBF0EE /* Main.storyboard */,
 				0D3385DA25ACCD3700FBF0EE /* Assets.xcassets */,
 				0D3385DC25ACCD3700FBF0EE /* LaunchScreen.storyboard */,
 				0D3385DF25ACCD3700FBF0EE /* Info.plist */,
 			);
-			path = myShop;
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		0D33860E25ADBA0500FBF0EE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0D7DA56625B9EA0900AA0A49 /* RootVC + extentions.swift */,
+				0D33864925AE021100FBF0EE /* MainVC + extentions.swift */,
+				0D33865A25AE150800FBF0EE /* CatalogVC + extentions.swift */,
+				0DCF5F4E25AF7A38002F638B /* WomenSneakersVC+ extentions.swift */,
+				0D7DA58D25BB554C00AA0A49 /* ManSneakersVC + extentions.swift */,
+				0DCF5F5B25AF7B91002F638B /* WomenBootsVC + extentions.swift */,
+				0D7DA52F25B8A81F00AA0A49 /* DetailVC + extentions.swift */,
+				0D7DA53425B8C07B00AA0A49 /* Alerts.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0D33863225ADD47500FBF0EE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0D33862F25ADD37C00FBF0EE /* ImageData.swift */,
+				0DCF5F6325AF9F74002F638B /* ProductData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0D7DA54F25B993EE00AA0A49 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0D7DA55225B9947900AA0A49 /* CustomTabBar.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +280,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3385D625ACCD3600FBF0EE /* ViewController.swift in Sources */,
+				0D33865325AE0BAD00FBF0EE /* CatalogVC.swift in Sources */,
+				0DCF5F5825AF7B51002F638B /* WomanBootsCell.swift in Sources */,
+				0DCF5F5F25AF82B0002F638B /* EmptyVC.swift in Sources */,
+				0D33865625AE0E4E00FBF0EE /* CatalogCell.swift in Sources */,
+				0D7DA55325B9947900AA0A49 /* CustomTabBar.swift in Sources */,
+				0DCF5F4325AF78D1002F638B /* WomenSneakersVC.swift in Sources */,
+				0D33860825ADB89800FBF0EE /* BunnerCollectionCell.swift in Sources */,
+				0D7DA58725BB542F00AA0A49 /* ManSneakersVC.swift in Sources */,
+				0D7DA51625B86BAB00AA0A49 /* ChosenVC.swift in Sources */,
+				0DCF5F4625AF7960002F638B /* WomenBootsVC.swift in Sources */,
+				0D33863F25ADDB9F00FBF0EE /* BunnerTableCell.swift in Sources */,
+				0DCF5F6425AF9F74002F638B /* ProductData.swift in Sources */,
+				0D7DA58B25BB54F400AA0A49 /* ManSneakersCell.swift in Sources */,
+				0D33864E25AE065A00FBF0EE /* MainVC.swift in Sources */,
+				0D7DA53025B8A81F00AA0A49 /* DetailVC + extentions.swift in Sources */,
 				0D3385D225ACCD3600FBF0EE /* AppDelegate.swift in Sources */,
+				0D7DA58E25BB554C00AA0A49 /* ManSneakersVC + extentions.swift in Sources */,
+				0D7DA56725B9EA0900AA0A49 /* RootVC + extentions.swift in Sources */,
+				0DCF5F4A25AF79B6002F638B /* WomenSneakersCell.swift in Sources */,
+				0D7DA55C25B99B2800AA0A49 /* RootViewControllerCell.swift in Sources */,
+				0D33864A25AE021100FBF0EE /* MainVC + extentions.swift in Sources */,
+				0D33863025ADD37C00FBF0EE /* ImageData.swift in Sources */,
+				0D7DA52425B88D9800AA0A49 /* DetailVC.swift in Sources */,
+				0D33864225ADDCA800FBF0EE /* BunnerTableModel.swift in Sources */,
+				0D7DA53525B8C07B00AA0A49 /* Alerts.swift in Sources */,
+				0DCF5F5C25AF7B91002F638B /* WomenBootsVC + extentions.swift in Sources */,
+				0D7DA54525B9860200AA0A49 /* RootVC.swift in Sources */,
+				0D33867125AF08A900FBF0EE /* ProductModel.swift in Sources */,
 				0D3385D425ACCD3600FBF0EE /* SceneDelegate.swift in Sources */,
+				0DCF5F4F25AF7A38002F638B /* WomenSneakersVC+ extentions.swift in Sources */,
+				0D33860325ADB7C200FBF0EE /* BunnerCollectionModel.swift in Sources */,
+				0D33865B25AE150800FBF0EE /* CatalogVC + extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,12 +460,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8S57G4B79;
-				INFOPLIST_FILE = myShop/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/myShop/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Azat-Kirakosyan.myShop";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------Personal-Team";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +479,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D8S57G4B79;
-				INFOPLIST_FILE = myShop/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/myShop/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Azat-Kirakosyan.myShop";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------------Personal-Team";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
